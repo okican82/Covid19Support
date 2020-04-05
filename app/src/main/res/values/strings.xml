@@ -1,4 +1,40 @@
 <resources>
     <string name="app_name">Covid19Support</string>
     <string name="please_wait">Lütfen Bekleyin</string>
+
+    <string name="userLabel">Kullanıcı Adı</string>
+    <string name="userLabelError">Kullanıcı Adı Alanı Boş Bırakılamaz.</string>
+
+    <string name="usePassLabel">Parola</string>
+    <string name="usePassLabelError">Parola Alanı Boş Bırakılamaz.</string>
+
+    <string name="hint_user_label">E - Mail</string>
+    <string name="hint_pass_label">Parola</string>
+    <string name="login">Giriş</string>
+    <string name="sing_in">Üye Ol</string>
+    <string name="sing_up_label">Hesabınız yok mu? Kayıt olun.</string>
+    <string name="emailErrorValidation">Lütfen geçerli bir e mail adresi giriniz!</string>
+    <string name="passwordErrorValidation">Lütfen geçerli bir parola giriniz.</string>
+    <string name="login_error">Hatalı giriş</string>
+    <string name="sing_up_button">Kayıt Ol</string>
+    <string name="forget_password">Şifremi Unuttum!</string>
+
+    <string name="ERROR_INVALID_CUSTOM_TOKEN">The custom token format is incorrect. Please check the documentation.</string>
+    <string name="ERROR_CUSTOM_TOKEN_MISMATCH">The custom token corresponds to a different audience.</string>
+    <string name="ERROR_INVALID_CREDENTIAL">The supplied auth credential is malformed or has expired.</string>
+    <string name="ERROR_INVALID_EMAIL">E-posta adresi doğru biçimlendirilmiş.</string>
+    <string name="ERROR_WRONG_PASSWORD">Şifre geçersiz veya kullanıcının bir şifresi yok.</string>
+    <string name="ERROR_USER_MISMATCH">Sağlanan kimlik bilgileri daha önce oturum açmış olan kullanıcıya karşılık gelmiyor.</string>
+    <string name="ERROR_REQUIRES_RECENT_LOGIN">Bu işlem hassastır ve yakın zamanda kimlik doğrulaması gerektirir. Bu isteği yeniden denemeden önce tekrar giriş yapın.</string>
+    <string name="ERROR_ACCOUNT_EXISTS_WITH_DIFFERENT_CREDENTIAL">Aynı e-posta adresine, ancak farklı oturum açma kimlik bilgilerine sahip bir hesap zaten var. Bu e-posta adresiyle ilişkili bir sağlayıcı kullanarak oturum açın.</string>
+    <string name="ERROR_EMAIL_ALREADY_IN_USE">E-posta adresi başka bir hesap tarafından zaten kullanılıyor.</string>
+    <string name="ERROR_CREDENTIAL_ALREADY_IN_USE">Bu kimlik bilgisi zaten farklı bir kullanıcı hesabıyla ilişkilendirilmiş.</string>
+    <string name="ERROR_USER_DISABLED">Kullanıcı hesabı bir yönetici tarafından devre dışı bırakıldı.</string>
+    <string name="ERROR_USER_TOKEN_EXPIRED">Kullanıcının kimlik bilgileri artık geçerli değil. Kullanıcının tekrar oturum açması gerekir.</string>
+    <string name="ERROR_USER_NOT_FOUND">Bu tanımlayıcıya karşılık gelen kullanıcı kaydı yok. Kullanıcı silinmiş olabilir.</string>
+    <string name="ERROR_INVALID_USER_TOKEN">Kullanıcının kimlik bilgileri artık geçerli değil. Kullanıcının tekrar oturum açması gerekir.</string>
+    <string name="ERROR_OPERATION_NOT_ALLOWED">Bu işleme izin verilmiyor. Bu hizmeti konsolda etkinleştirmeniz gerekir.</string>
+    <string name="ERROR_WEAK_PASSWORD">Belirtilen şifre geçersiz.</string>
+    <string name="ERROR_WEAK_PASSWORD_DESCRIPTION">Şifre geçersiz, en az 6 karakter olmalı</string>
+
 </resources>

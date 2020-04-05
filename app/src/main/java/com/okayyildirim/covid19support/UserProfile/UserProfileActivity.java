@@ -1,16 +1,20 @@
 package com.okayyildirim.covid19support.UserProfile;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
+import com.okayyildirim.covid19support.Base.BaseAppCompatActivity;
 import com.okayyildirim.covid19support.R;
 
-public class UserProfileActivity extends AppCompatActivity {
+public class UserProfileActivity extends BaseAppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_profile);
+    }
+
+    @Override
+    protected int getLayoutResourceId() {
+        return R.layout.activity_user_profile;
     }
 }

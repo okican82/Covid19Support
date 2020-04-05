@@ -1,4 +1,11 @@
 package com.okayyildirim.covid19support.Login;
 
-public interface LoginComponent {
+import dagger.Component;
+
+
+@Component(modules = {LoginModule.class})
+interface LoginComponent {
+
+    void inject(LoginActivity loginActivity);
 }
+

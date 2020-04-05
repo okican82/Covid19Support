@@ -1,9 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
     tools:context=".Login.LoginActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <com.okayyildirim.covid19support.Component.appTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/login_horizontal_margin"
+                android:text="@string/userLabel"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/place_holder_title"
+                />
+
+            <com.okayyildirim.covid19support.Component.appEdittext
+                android:id="@+id/user_name_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/login_horizontal_margin"
+                android:layout_marginRight="@dimen/login_horizontal_margin"
+                android:backgroundTint="@color/textColor"
+                android:hint="@string/hint_user_label"
+                android:textColor="@color/textColor"
+                android:textColorHint="@color/hintTextColor"
+                android:textCursorDrawable="@color/textColor"
+                android:maxLines="1"
+                android:textSize="@dimen/input_text"
+                />
+
+            <com.okayyildirim.covid19support.Component.appTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/login_horizontal_margin"
+                android:text="@string/usePassLabel"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/place_holder_title"
+                />
+
+            <com.okayyildirim.covid19support.Component.appEdittext
+                android:id="@+id/user_pass_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/login_horizontal_margin"
+                android:layout_marginRight="@dimen/login_horizontal_margin"
+                android:backgroundTint="@color/textColor"
+                android:hint="@string/hint_pass_label"
+                android:textColor="@color/textColor"
+                android:textColorHint="@color/hintTextColor"
+                android:textCursorDrawable="@color/textColor"
+                android:maxLines="1"
+                android:textSize="@dimen/input_text"
+                android:inputType="textPassword"
+                />
+            <com.okayyildirim.covid19support.Component.appButton
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/forget_password_button"
+                android:text="@string/forget_password"
+                android:textSize="@dimen/place_holder_title"
+                android:textAllCaps="false"
+                android:background="@color/background"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/login_horizontal_margin"
+                android:textColor="@color/textColor"
+                android:shadowColor="@color/background"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:stateListAnimator="@null"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.okayyildirim.covid19support.Component.appButton
+        android:id="@+id/login_button"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="14dp"
+        android:text="@string/login"
+        android:textSize="@dimen/button_text_size_l"
+        android:textColor="@color/textColor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/login_horizontal_margin"
+        android:layout_marginRight="@dimen/login_horizontal_margin"
+        android:background="@drawable/roundedbutton"
+        android:stateListAnimator="@null"
+        android:textAllCaps="false"
+        />
+
+    <com.okayyildirim.covid19support.Component.appButton
+        android:id="@+id/sing_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:background="#00000000"
+        android:text="@string/sing_up_label"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/button_text_size_s"
+        android:stateListAnimator="@null"
+        android:textAllCaps="false"
+        />
+
+
+
+</LinearLayout>
