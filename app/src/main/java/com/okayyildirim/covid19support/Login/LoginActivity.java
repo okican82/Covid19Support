@@ -95,7 +95,10 @@ public class LoginActivity extends BaseAppCompatActivity implements LoginView {
 
     @Override
     public void navigateToMain() {
-        startActivity(new Intent(getBaseContext(), MainActivity.class));
+
+        Intent loginActivityIntent = new Intent(getBaseContext(), MainActivity.class);
+        loginActivityIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(loginActivityIntent);
     }
 
     @Override

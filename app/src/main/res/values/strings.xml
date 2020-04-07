@@ -18,6 +18,7 @@
     <string name="login_error">Hatalı giriş</string>
     <string name="sing_up_button">Kayıt Ol</string>
     <string name="forget_password">Şifremi Unuttum!</string>
+    <string name="filter">Filtrele</string>
 
     <string name="ERROR_INVALID_CUSTOM_TOKEN">The custom token format is incorrect. Please check the documentation.</string>
     <string name="ERROR_CUSTOM_TOKEN_MISMATCH">The custom token corresponds to a different audience.</string>
